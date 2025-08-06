@@ -1,8 +1,10 @@
+import Footer from "../components/Footer";
 import Header from "../components/Head";
 import img from "./images/WhatsApp Image 2025-08-05 at 20.05.12_7d339912.jpg"
 
 function Contact(){
-    return <div className="pt-32 sm:pt-24">
+    return <>
+    <div className="pt-32 sm:pt-24">
     <Header />
     <div className="max-w-7xl mx-auto p-6">
       <div className="flex flex-col lg:flex-row gap-10">
@@ -104,6 +106,8 @@ function Contact(){
       </div>
     </div>
     </div>
+    <Footer />
+    </>
 }
 
 

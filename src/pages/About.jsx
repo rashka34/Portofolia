@@ -1,8 +1,10 @@
+import Footer from "../components/Footer"
 import Header from "../components/Head"
 import img from "./images/WhatsApp Image 2025-08-05 at 20.05.12_7d339912.jpg"
 
 function About (){
-    return <div className="pt-32 sm:pt-24">
+    return <>
+    <div className="pt-32 sm:pt-24">
         <Header />
         <div className="flex flex-col  lg:flex-row items-center lg:items-start p-6 gap-10 max-w-6xl mx-auto">
       
@@ -44,6 +46,8 @@ function About (){
     </div>
 
     </div>
+    <Footer />
+    </>
 }
 
 export default About

@@ -1,4 +1,4 @@
-import { FaXTwitter, FaFacebookF, FaInstagram, FaSkype, FaLinkedinIn, FaEnvelope, FaPhone } from "react-icons/fa6";
+import { FaXTwitter, FaFacebookF, FaInstagram, FaSkype, FaLinkedinIn, FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -13,7 +13,10 @@ function Footer() {
        <IconWrapper><FaXTwitter /></IconWrapper>
       <IconWrapper><FaFacebookF /></IconWrapper>
       <IconWrapper><FaInstagram /></IconWrapper>
-      <IconWrapper><FaSkype /></IconWrapper>
+      <a href="https://wa.me/252616576162">
+      <IconWrapper><FaWhatsapp /></IconWrapper>
+
+      </a>
       <IconWrapper><FaLinkedinIn /></IconWrapper>
       <IconWrapper><FaEnvelope /></IconWrapper>
 
